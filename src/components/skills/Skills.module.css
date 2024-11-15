@@ -1,0 +1,139 @@
+/* Basic grid setup */
+.skillGrid {
+  display: grid;
+  gap: 20px; /* Default gap between grid items */
+  justify-items: center; /* Center items within each cell */
+  margin-top: 30px; /* Top margin for overall grid */
+  width: 100%; /* Ensure full width */
+  padding-bottom: 50px; /* Ensure space for text below */
+}
+
+/* Row 1: 6 items (no change) */
+.row1 {
+  grid-template-columns: repeat(6, 1fr); /* 6 items in the first row */
+  justify-items: center; /* Center the items horizontally */
+}
+
+/* Row 2: 4 items, centered, with reduced gap */
+.row2 {
+  grid-template-columns: repeat(6, 1fr); /* 6 columns, but only 4 items in this row */
+  justify-items: center; /* Center the items horizontally */
+  gap: 25px; /* Reduced gap between items */
+  margin-left: 50px; /* Shift row 2 to the right slightly to make it look centered */
+  padding-left: 50px; /* Adjust left padding for alignment */
+  padding-right: 0px; /* Adjust right padding to keep it centered */
+}
+
+/* Row 3: 2 items, centered, with reduced gap */
+.row3 {
+  grid-template-columns: repeat(6, 1fr); /* 6 columns, but only 2 items in this row */
+  justify-items: center; /* Center the third row horizontally */
+  gap: 20px; /* Reduced gap between items */
+  margin-top: 20px; /* Reduced gap between row 3 */
+  padding-left: 70px; /* Adjusted padding for better center alignment */
+  padding-right: 0px; /* Reduced right padding */
+  margin-left: 8rem; /* Adjust left margin for better positioning */
+}
+
+/* Circle icon styling */
+.circleIcon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.circleIcon img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* Skill name styling */
+.skillName {
+  font-size: 16px;
+  font-weight: 500;
+  color: #f0f5f4;
+  margin-top: 10px;
+  margin-left: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 1200px (e.g., tablets and below) */
+@media (max-width: 1199px) {
+  .row1 {
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row on smaller screens */
+  }
+
+  .row2 {
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    margin-left: 0; /* Remove left margin to keep it centered */
+    padding-left: 0; /* Remove padding for better alignment */
+  }
+
+  .row3 {
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    margin-left: 0; /* Remove left margin */
+    padding-left: 0; /* Remove padding for better alignment */
+  }
+
+  /* Adjust icon size for smaller screens */
+  .circleIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .circleIcon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Adjust font size of skill name */
+  .skillName {
+    font-size: 14px;
+    margin-left: 6px;
+  }
+}
+
+/* For screens smaller than 768px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  .row1 {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on small screens */
+  }
+
+  .row2 {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    margin-left: 0; /* Center the items */
+    padding-left: 0; /* Remove padding */
+  }
+
+  .row3 {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+    margin-left: 0; /* Remove margin */
+    padding-left: 0; /* Remove padding */
+  }
+
+  /* Adjust icon size for very small screens */
+  .circleIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .circleIcon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Adjust font size of skill name */
+  .skillName {
+    font-size: 12px;
+    margin-left: 6px;
+  }
+}
+

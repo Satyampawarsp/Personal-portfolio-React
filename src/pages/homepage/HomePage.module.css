@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding:0;
+    /* background-color: rgb(17, 17, 17); */
+}
+body {
+    background-color: var(--dark-blue);
+    color: white;
+}
