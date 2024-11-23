@@ -1,6 +1,7 @@
 import styles from "./Project.module.css";
 import quizIMG from "../../assets/quizIMG.png";
 import Cental from '../../assets/Cental.png'
+import Bewkoof from"../../assets/Bewkoof.png";
 import { motion } from "framer-motion";
 import Circle from "../circle/Circle";
 import ComponentTitle from "../componentTitle/ComponentTitle";
@@ -22,13 +23,13 @@ function Project() {
                     >
                         
                         <ProjectCard
-                            previewLink={""}
-                            githubLink={""}
+                            previewLink={"https://bewkoof-clone-8zrk.vercel.app/"}
+                            githubLink={"https://github.com/Satyampawarsp/Bewkoof-clone/tree/main"}
                             projectName={"Bewkoof-Clone"}
                             projectDetails={
-                                "Bewfook Is An Ecom platform for latest and trending outfits and shoes "
+                                "Bewkoof.com E-commerce Clone: Explore products, add to cart, and checkout just like the original Bewkoof site. A fun and interactive e-commerce experience built with React! Simple, responsive, and user-friendly. "
                             }
-                            demoImage={Cental}
+                            demoImage={Bewkoof}
                             skill_img={[
                                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
