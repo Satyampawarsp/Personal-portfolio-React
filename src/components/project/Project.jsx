@@ -2,6 +2,7 @@ import styles from "./Project.module.css";
 import quizIMG from "../../assets/quizIMG.png";
 import Cental from '../../assets/Cental.png'
 import Bewkoof from"../../assets/Bewkoof.png";
+import Append from "../../assets/Append.png"
 import { motion } from "framer-motion";
 import Circle from "../circle/Circle";
 import ComponentTitle from "../componentTitle/ComponentTitle";
@@ -24,14 +25,30 @@ function Project() {
                         
                         <ProjectCard
                             previewLink={"https://bewkoof-clone-8zrk.vercel.app/"}
-                            githubLink={"https://github.com/Satyampawarsp/Bewkoof-clone/tree/main"}
+                            githubLink={"https://github.com/Satyampawarsp/Bewkoof-clone"}
                             projectName={"Bewkoof-Clone"}
                             projectDetails={
-                                "Bewkoof.com E-commerce Clone: Explore products, add to cart, and checkout just like the original Bewkoof site. A fun and interactive e-commerce experience built with React! Simple, responsive, and user-friendly. "
+                                "Bewkoof.com E-commerce Clone: Explore products, add to cart, and checkout, just like the original site. A fun, interactive, and responsive React e-commerce app."
                             }
                             demoImage={Bewkoof}
                             skill_img={[
                                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                                "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+                            ]}
+                        />
+                        
+                        <ProjectCard
+                            previewLink={"https://append-boostrap-clone.vercel.app/"}
+                            githubLink={"https://github.com/Satyampawarsp/Append-boostrap-clone"}
+                            projectName={"Append-Bootstrap-Clone"}
+                            projectDetails={
+                                "Append-Bootstrap-Clone: A demo page showcasing Bootstrap features with multiple sections designed to help improve your web design skills."
+                            }
+                            demoImage={Append}
+                            skill_img={[
                                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
                                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
