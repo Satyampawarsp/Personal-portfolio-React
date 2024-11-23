@@ -20,6 +20,23 @@ function Project() {
                         transition={{ delay: ".5", duration: ".3", stiffness: "100" }}
                         className={styles.projects_component}
                     >
+                        
+                        <ProjectCard
+                            previewLink={""}
+                            githubLink={""}
+                            projectName={"Bewkoof-Clone"}
+                            projectDetails={
+                                "Bewfook Is An Ecom platform for latest and trending outfits and shoes "
+                            }
+                            demoImage={Cental}
+                            skill_img={[
+                                "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+                                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                                "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+                            ]}
+                        />
                         <ProjectCard
                             previewLink={"https://thereactquizz.netlify.app/"}
                             githubLink={""}
@@ -47,7 +64,8 @@ function Project() {
                                 "https://cdn.worldvectorlogo.com/logos/react-2.svg",
                                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
                                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-                                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
+                                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+                                "https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
                             ]}
                         />
                     </motion.div>

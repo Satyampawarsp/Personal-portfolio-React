@@ -1,6 +1,6 @@
 .projectContainer {
   position: relative; /* Allow positioning of child elements */
-  z-index: 2; /* Ensure this is higher than Circle's z-index */
+  z-index: 6; /* Ensure this is higher than Circle's z-index */
   overflow: auto; /* Enable scrolling */
 }
 
@@ -13,6 +13,7 @@
   width: 100%;
   margin-inline: auto;
   margin-top: 4rem;
+  z-index: 6;
 }
 
 :global(.component_container) {
