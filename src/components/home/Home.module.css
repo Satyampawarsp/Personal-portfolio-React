@@ -109,8 +109,8 @@
 
 .img_section::after {
   content: "";
-  width: 80%; /* Match the width of the image */
-  height: 20px; /* Set height for the glow */
+  width: 90%; /* Match the width of the image */
+  height: 10px; /* Set height for the glow */
   background: linear-gradient(
     90deg,
     rgba(164, 0, 179, 0.725), /* First color */
@@ -159,6 +159,9 @@
       width: 100%;
       flex-direction: column-reverse;
   }
+.hero_image{
+  width:80%;
+}
 
   .left_side {
       width: 75%;

@@ -4,7 +4,6 @@ import Cental from '../../assets/Cental.png'
 import Bewkoof from"../../assets/Bewkoof.png";
 import Append from "../../assets/Append.png"
 import { motion } from "framer-motion";
-import Circle from "../circle/Circle";
 import ComponentTitle from "../componentTitle/ComponentTitle";
 import ProjectCard from "../projectCard/ProjectCard";
 import MainContainer from '../mainContainer/MainContainers';
@@ -12,7 +11,7 @@ import MainContainer from '../mainContainer/MainContainers';
 function Project() {
     return (
         <div id="projects" className={styles.projectContainer}>
-            <Circle /> 
+          
             <MainContainer>
                 <div className={styles.project_page_component}>
                     <ComponentTitle title={"My projects"} />
