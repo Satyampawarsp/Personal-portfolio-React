@@ -6,7 +6,7 @@ function AlertBox() {
   return (
     <motion.div 
    
-     className={styles.alert_box}>Email sent!. You will get the response email soon. Thank You..!</motion.div>
+     className={styles.alert_box}>Email sent!. You will get the response email soon.</motion.div>
   )
 }
 

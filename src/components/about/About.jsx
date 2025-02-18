@@ -53,16 +53,16 @@ const About = () => {
               <div className={`${style.action_container} ${style.left_container}`}>
                 <ActionBox
                   isleft={true}
-                  timeline={"2022 - 2023"}
-                  timeline_title={"Web devloper"}
-                  location={"WFH"}
-                  details={"I have worked as a junior Frontend devloper."}
+                  timeline={"MAY 2024 - NOV 2024"}
+                  timeline_title={"React Devloper"}
+                  location={"REGO Digital Solutions Pvt Ltd"}
+                  details={"I have worked as a junior Frontend devloper.Designed and Implemented Responsive user Interface"}
                 />
               </div>
               <div className={`${style.action_container} ${style.right_container}`}>
                 <ActionBox
                   isleft={false}
-                  timeline={"2023 - 2024"}
+                  timeline={"2024 - 2025"}
                   timeline_title={"COMMING SOON"}
                 />
               </div>
