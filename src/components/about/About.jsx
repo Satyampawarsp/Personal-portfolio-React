@@ -22,7 +22,7 @@ const About = () => {
                   timeline={"2020 - 2024"}
                   timeline_title={"Bachelors in E&Tc."}
                   location={" JSPM's Imperial College of Engineering and Research, Wagholi."}
-                  details={"Pursued a Bachelor's degree in Electronics & Telecommunications with a 7.89 CGPA from SPPU."}
+                  details={"Pursued a Bachelor's degree in Electronics & Telecommunications with a  7.57 FIRST CLASS."}
                 />
               </div>
               
@@ -32,7 +32,7 @@ const About = () => {
                   timeline={"2019 - 2020"}
                   timeline_title={"Senior Secondary (10+2)"}
                   location={"A.M college, Hadapsar,Pune."}
-                  details={"Completed my Degree from State Board with 58 % from AnnaSaheb Magar College, Hadapsar,Pune-412308 ."}
+                  details={"Completed my Degree from State Board with 56 % from AnnaSaheb Magar College, Hadapsar,Pune-412308 ."}
                 />
               </div>
               <div className={`${style.action_container} ${style.left_container}`}>
@@ -54,7 +54,7 @@ const About = () => {
                 <ActionBox
                   isleft={true}
                   timeline={"MAY 2024 - NOV 2024"}
-                  timeline_title={"React Devloper"}
+                  timeline_title={"Web Devloper"}
                   location={"REGO Digital Solutions Pvt Ltd"}
                   details={"I have worked as a junior Frontend devloper.Designed and Implemented Responsive user Interface"}
                 />
@@ -63,7 +63,7 @@ const About = () => {
                 <ActionBox
                   isleft={false}
                   timeline={"2024 - 2025"}
-                  timeline_title={"COMMING SOON"}
+                  timeline_title={"Looking Forword For Best Opportunity"}
                 />
               </div>
               
