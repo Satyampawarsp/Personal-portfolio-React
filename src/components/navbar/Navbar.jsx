@@ -66,7 +66,7 @@ function Navbar() {
           </li>
         </ul>
         <div className={style.social_media_section}>
-          <a href="https://github.com/satyam1733" rel="noopener noreferrer" target="_blank" className={style.link}>
+          <a href="https://github.com/satyampawarsp" rel="noopener noreferrer" target="_blank" className={style.link}>
             <i className="fa-brands fa-github"></i>
           </a>
           <a href="https://www.linkedin.com/in/satyam-pawar-1988b5247" target="_blank" rel="noopener noreferrer" className={style.link}>
