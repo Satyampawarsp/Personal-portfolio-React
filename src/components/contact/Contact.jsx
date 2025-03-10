@@ -17,7 +17,7 @@
             </div>
             <div className={styles.right_section_indexing}>
               {/* Buttons to naviagate betwwen main and whatsapp  */}
-              {/* <div className={styles.button_section}>
+              <div className={styles.button_section}>
                 <button className={`${styles.btn} ${styles.mail_btn}`}>
                   <i
                     className={`fa-solid fa-envelope ${styles.button_icon} ${styles.mail_icon}`}
@@ -30,13 +30,13 @@
                   ></i>
                   Whatsapp
                 </button>
-              </div> */}
+              </div>
               {/* Location Section  */}
               <div className={styles.location_services}>
               <div className={styles.symbol}>
                   <i className={`fa-solid fa-location-dot`}></i>
                 </div>
-                <p>House. 1733, Hadapsar, Pune (412308), Maharashtra</p>
+                <p>House.173, Hadapsar, Pune (412308), Maharashtra</p>
               </div>
 
               {/* Phone Services  */}
@@ -65,7 +65,7 @@
 
                   <div className={styles.account_icon}>
                     <a
-                      href="https://github.com/satyam1733"
+                      href="https://github.com/Satyampawarsp"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
